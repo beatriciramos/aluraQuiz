@@ -1,0 +1,15 @@
+{
+  "bg": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/magic-kingdom/cinderella-castle/cinderella-castle-gallery14.jpg?1551810691681",
+  "title": "Disney Princesses",
+  "theme": {
+    "colors": {
+      "primary": "#FFC9DEF5",
+      "secondary": "#DA70D6",
+      "mainBg": "#FFFFFF",
+      "constrastText": "#FFFFFFFF",
+      "wrong": "#FF5143",
+      "sucess": "#4CAF50"
+    },
+    "borderRadius": "4px"
+  }
+}

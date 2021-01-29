@@ -6,7 +6,7 @@
       "primary": "#FFC9DEF5",
       "secondary": "#DA70D6",
       "mainBg": "#FFFFFF",
-      "constrastText": "#FFFFFFFF",
+      "constrastText": "#000000",
       "wrong": "#FF5143",
       "sucess": "#4CAF50"
     },

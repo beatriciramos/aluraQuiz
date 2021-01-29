@@ -46,3 +46,40 @@ export const CardContent = styled.div`
     padding: 0;
   }
 `;
+
+export const InputBase = styled.input`
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.constrastText};
+  background-color: ${({ theme }) => theme.colors.mainBg};
+  border-radius: ${({ theme }) => theme.colors.borderRadius};
+  outline: 0;
+  margin-bottom: 25px;
+`;
+
+export const Button = styled.button`
+  background-color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.constrastText};
+  border-radius: 5px;
+  border: 0;
+  width: 100%;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  outline: 0;
+  transition: 0.3s;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+  &:disabled {
+    background-color: #ffff !important;
+    cursor: not-allowed;
+    color: ${({ theme }) => theme.colors.primary}!important;
+  }
+`;
